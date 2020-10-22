@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-form {
+  display: grid;
+  width: 500px;
+  justify-content: center;
+}
