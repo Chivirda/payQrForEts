@@ -10,9 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "webpack": "^5.2.0"
   },
   "devDependencies": {
+    "webpack": "^5.2.0",
+    "html-webpack-plugin": "^4.5.0",
     "qrcode": "^1.4.4"
   }
 }
