@@ -5,12 +5,19 @@
 }
 
 .page-wrapper {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  justify-content: center;
+  grid-gap: 30px;
 }
 
 .input-form {
   display: grid;
-  width: 500px;
   justify-content: center;
+  grid-gap: 10px;
+}
+
+#canvas {
+  height: 300px;
+  width: 300px;
 }

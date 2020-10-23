@@ -4,9 +4,9 @@
   "description": "QR code generator for payment to ETS",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack-dev-server --mode development --open",
     "watch": "webpack --mode development --watch",
-    "buld": "webpack --mode production",
-    "dev": "webpack-dev-server --mode development --open"
+    "buld": "webpack --mode production"
   },
   "keywords": [],
   "author": "Sergey Chivirda",
