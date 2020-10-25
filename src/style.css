@@ -17,6 +17,12 @@
   grid-gap: 10px;
 }
 
+.form-input {
+  border: 2px solid #b004a3;
+  border-radius: 6px;
+  min-height: 14px;
+}
+
 #canvas {
   height: 300px;
   width: 300px;

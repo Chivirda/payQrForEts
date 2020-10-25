@@ -1,5 +1,6 @@
 const path = require('path')
 const htmlWebpackPlugin = require('html-webpack-plugin')
+const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 
 module.exports = {
   entry: './src/index.js',
@@ -11,7 +12,8 @@ module.exports = {
     new htmlWebpackPlugin({
       template: './src/index.html',
       filename: 'index.html'
-    })
+    }),
+    new CleanWebpackPlugin()
   ],
   module: {
     rules: [
@@ -20,8 +22,5 @@ module.exports = {
         use: ['style-loader', 'css-loader']
       }
     ]
-  },
-  devServer: {
-    port: 3000
   }
 }
