@@ -23,7 +23,7 @@
   min-height: 14px;
 }
 
-#canvas {
-  height: 300px;
-  width: 300px;
+#container {
+  display: flex;
+  justify-content: center;
 }

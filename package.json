@@ -4,7 +4,7 @@
   "description": "QR code generator for payment to ETS",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack serve",
+    "dev": "webpack-dev-server --open",
     "watch": "webpack --mode development --watch",
     "buld": "webpack --mode production"
   },
@@ -19,7 +19,7 @@
     "qrcode": "^1.4.4",
     "style-loader": "^2.0.0",
     "webpack": "^5.2.0",
-    "webpack-cli": "^4.1.0",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   }
 }
