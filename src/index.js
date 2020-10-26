@@ -20,6 +20,7 @@ form.addEventListener('submit', event => {
   QrCode.toCanvas(container, value, { errorCorrectionLevel: 'Q', width: 300, height: 300 }, function (err, canvas) {
     if (err) throw err
    
+
     container.append(canvas)
   })
 })
