@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --open",
-    "watch": "webpack --mode development --watch",
     "buld": "webpack --mode production"
   },
   "keywords": [],
