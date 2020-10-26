@@ -11,12 +11,12 @@
     <h1>Генератор QR кода для оплаты в пользу ООО "Электротехснаб"</h1>
     <form class="input-form">
       <label for="reason">Введите назначение платежа</label>
-      <input type="text" class="form-input" name="reason" id="reason">
+      <input type="text" class="form-input" name="reason" id="reason" placeholder="По счёту 01290000/7">
       <label for="amount">Введите сумму в копейках</label>
-      <input type="number" class="form-input" name="amount" id="amount">
-      <input type="submit" value="Сгенерировать">
+      <input type="number" class="form-input" name="amount" id="amount" placeholder="100 = 1 &#8381;">
+      <input type="submit" class="submit-button" value="Сгенерировать">
     </form>
-    <div id="container"></div>
+    <canvas id="container"></canvas>
   </div>
 </body>
 </html>

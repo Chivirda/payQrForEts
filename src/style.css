@@ -17,6 +17,7 @@
   grid-template-rows: repeat(3, auto);
   justify-content: center;
   grid-gap: 30px;
+  padding-top: 30px;
 }
 
 .input-form {
@@ -29,9 +30,24 @@
   border: 2px solid #b004a3;
   border-radius: 6px;
   min-height: 14px;
+  padding: 10px;
+}
+
+.submit-button {
+  color: #ffffff;
+  background-color: #00bfff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 16px;
+  width: 500px;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  background-color: #20abda;
 }
 
 #container {
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
 }
